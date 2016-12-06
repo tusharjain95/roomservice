@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<remote name="gb" fetch="https://github.com/"/>
+
+<remote name="gl" fetch="https://gitlab.com/"/>
+
+<remote name="bb" fetch="https://bitbucket.org/"/>
+
+<!--remove-project name="android_device_oneplus_bacon"/-->
+
+<project name="tusharjain95/android_device_oneplus_bacon-1" revision="du" remote="gb" path="device/oneplus/bacon"/>
+
+<project name="nikhil18/lightning-kernel-bacon" revision="lightning-cm14" remote="gb" path="kernel/oneplus/msm8974"/>
+
+<project name="AOSP-bacon/proprietary_vendor_oneplus" revision="nougat" remote="gb" path="vendor/oneplus"/>
+
+<project name="Shreeesha/android_device_oppo_common" revision="n-caf" remote="gb" path="device/oppo/common"/>
+
+<!-- <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" revision="cm-14.1" remote="gb" /> -->
+
+
+<project name="Cyanogenmod/android_external_ant-wireless_ant_service" revision="cm-14.1" remote="gb" path="external/ant-wireless/ant_service"/>
+
+<project name="Cyanogenmod/android_external_ant-wireless_ant_native" revision="cm-14.1" remote="gb" path="external/ant-wireless/ant_native"/>
+
+<project name="Cyanogenmod/android_external_ant-wireless_antradio-library" revision="cm-14.1" remote="gb" path="external/ant-wireless/antradio-library"/>
+
+<project name="CyanogenMod/android_external_connectivity" revision="cm-14.0" remote="gb" path="external/connectivity"/>
+
+<!--<project name="DirtyUnicorns/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" revision="n-caf" remote="gb" /> -->
+
+<!--remove-project name="android_hardware_qcom_bt"/-->
+
+<remove-project name="android_hardware_qcom_wlan"/>
+
+<project name="CyanogenMod/android_hardware_qcom_wlan" revision="cm-14.0" remote="gb" path="hardware/qcom/wlan"/>
+
+<project name="CyanogenMod/android_hardware_qcom_wlan" revision="cm-14.0-caf" remote="gb" path="hardware/qcom/wlan-caf" groups="qcom_wlan"/>
+
+<remove-project name="android_system_core"/>
+
+<project name="amardeep434/android_system_core" revision="n" remote="gb" path="system/core"/>
+
+<remove-project name="android_frameworks_base"/>
+
+<project name="amardeep434/android_frameworks_base" revision="n" remote="gb" path="frameworks/base"/>
+
+<remove-project name="android_frameworks_av"/>
+
+<project name="amardeep434/android_frameworks_av1" revision="n-caf" remote="gb" path="frameworks/av"/>
+
+<project name="Cyanogenmod/android_system_qcom" revision="cm-14.1" remote="gb" path="system/qcom"/>
+
+<project name="CyanogenMod/android_hardware_qcom_display" revision="cm-14.0-caf-8974" remote="gb" path="hardware/qcom/display-caf/msm8974" groups="pdk,qcom,qcom_display"/>
+
+<project name="CyanogenMod/android_hardware_qcom_audio" revision="cm-14.0-caf-8974" remote="gb" path="hardware/qcom/audio-caf/msm8974" groups="pdk,qcom,qcom_audio"/>
+
+<project name="CyanogenMod/android_hardware_qcom_media" revision="cm-14.0-caf-8974" remote="gb" path="hardware/qcom/media-caf/msm8974" groups="pdk,qcom,qcom_media"/>
+
+<project name="CyanogenMod/android_hardware_qcom_bt" revision="cm-14.0-caf" remote="gb" path="hardware/qcom/bt-caf" groups="qcom"/>
+
+<remove-project name="android_system_bt"/>
+
+<project name="Cyanogenmod/android_system_bt" revision="cm-14.1" remote="gb" path="system/bt"/>
+
+<remove-project name="android_system_sepolicy"/>
+
+<project name="amardeep434/android_system_sepolicy" revision="n" remote="gb" path="system/sepolicy"/>
+
+<remove-project name="android_build"/>
+
+<project name="amardeep434/android_build" revision="n-caf" remote="gb" path="build">
+
+<copyfile dest="Makefile" src="core/root.mk"/>
+
+</project>
+
+<remove-project name="android_frameworks_native"/>
+
+<project name="amardeep434/android_frameworks_native" revision="n-caf" remote="gb" path="frameworks/native"/>
+
+<remove-project name="android_packages_apps_Settings"/>
+
+<project name="amardeep434/android_packages_apps_Settings-1" revision="n" remote="gb" path="packages/apps/Settings"/>
+
+<project name="TeamSubstratum/masquerade" revision="master" remote="gb" path="packages/apps/masquerade"/>
+
+<project name="amardeep434/arm-eabi-6.x" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" revision="LxU" remote="bb" clone-depth="1" />
+
+
+</manifest>
