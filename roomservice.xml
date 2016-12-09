@@ -85,7 +85,7 @@
 
 <project name="amardeep434/android_packages_apps_Settings-1" revision="n" remote="gb" path="packages/apps/Settings"/>
 
-<project name="TeamSubstratum/masquerade" revision="master" remote="gb" path="packages/apps/masquerade"/>
+<project name="TeamSubstratum/masquerade" revision="n" remote="gb" path="packages/apps/masquerade"/>
 
 <project name="amardeep434/arm-eabi-6.x" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" revision="LxU" remote="bb" clone-depth="1" />
 
